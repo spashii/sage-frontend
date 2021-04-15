@@ -1,0 +1,20 @@
+.root {
+	form {
+		display: flex;
+		flex-direction: column;
+
+		> * {
+			padding: 4px;
+			margin: 2px;
+		}
+
+		> button {
+			max-width: 64px;
+		}
+	}
+
+	a {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
